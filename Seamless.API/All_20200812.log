@@ -1,0 +1,38 @@
+2020-08-12 19:06:21.234 +00:00 [INF] Application starting up
+2020-08-12 19:06:32.941 +00:00 [DBG] Hosting starting
+2020-08-12 19:06:33.355 +00:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-12 19:06:33.487 +00:00 [DBG] Reading data from file 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys\key-ccc8d850-4e66-444b-aa3d-6c55d9fd9c55.xml'.
+2020-08-12 19:06:33.890 +00:00 [DBG] Found key "ccc8d850-4e66-444b-aa3d-6c55d9fd9c55".
+2020-08-12 19:06:34.006 +00:00 [DBG] Considering key "ccc8d850-4e66-444b-aa3d-6c55d9fd9c55" with expiration date "2020-10-14T09:31:01.0576243+00:00" as default key.
+2020-08-12 19:06:34.033 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-08-12 19:06:34.037 +00:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-08-12 19:06:34.071 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-08-12 19:06:34.081 +00:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-08-12 19:06:34.088 +00:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-08-12 19:06:34.096 +00:00 [DBG] Using key "ccc8d850-4e66-444b-aa3d-6c55d9fd9c55" as the default key.
+2020-08-12 19:06:34.098 +00:00 [DBG] Key ring with default key "ccc8d850-4e66-444b-aa3d-6c55d9fd9c55" was loaded during application startup.
+2020-08-12 19:06:36.752 +00:00 [DBG] Loaded hosting startup assembly Seamless.API
+2020-08-12 19:06:36.767 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-12 19:06:36.768 +00:00 [INF] Hosting environment: Development
+2020-08-12 19:06:36.768 +00:00 [INF] Content root path: C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.API
+2020-08-12 19:06:36.769 +00:00 [DBG] Hosting started
+2020-08-12 19:06:36.942 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2020-08-12 19:06:36.948 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-08-12 19:06:36.949 +00:00 [VRB] All hosts are allowed.
+2020-08-12 19:06:36.988 +00:00 [DBG] The request path /swagger/index.html does not match an existing file
+2020-08-12 19:06:37.040 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Features/Index.cshtml'.
+2020-08-12 19:06:37.196 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2020-08-12 19:06:37.197 +00:00 [DBG] Request did not match any endpoints
+2020-08-12 19:06:37.532 +00:00 [DBG] Request information GET /swagger/index.html information
+2020-08-12 19:06:37.786 +00:00 [DBG] Response information GET /swagger/index.html 200
+2020-08-12 19:06:37.850 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 842.5505 ms
+2020-08-12 19:06:37.928 +00:00 [INF] Request finished in 990.0697ms 200 text/html;charset=utf-8
+2020-08-12 19:06:39.289 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2020-08-12 19:06:39.290 +00:00 [VRB] All hosts are allowed.
+2020-08-12 19:06:39.291 +00:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+2020-08-12 19:06:39.292 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2020-08-12 19:06:39.293 +00:00 [DBG] Request did not match any endpoints
+2020-08-12 19:06:39.295 +00:00 [DBG] Request information GET /swagger/v1/swagger.json information
+2020-08-12 19:06:40.507 +00:00 [DBG] Response information GET /swagger/v1/swagger.json 200
+2020-08-12 19:06:40.565 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 1273.4649 ms
+2020-08-12 19:06:40.567 +00:00 [INF] Request finished in 1278.9276ms 200 application/json;charset=utf-8

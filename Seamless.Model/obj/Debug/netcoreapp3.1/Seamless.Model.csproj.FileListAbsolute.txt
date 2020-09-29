@@ -1,0 +1,12 @@
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Model\bin\Debug\netcoreapp3.1\Seamless.Model.deps.json
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Model\bin\Debug\netcoreapp3.1\Seamless.Model.runtimeconfig.json
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Model\bin\Debug\netcoreapp3.1\Seamless.Model.runtimeconfig.dev.json
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Model\bin\Debug\netcoreapp3.1\Seamless.Model.dll
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Model\bin\Debug\netcoreapp3.1\Seamless.Model.pdb
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Model\obj\Debug\netcoreapp3.1\Seamless.Model.csprojAssemblyReference.cache
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Model\obj\Debug\netcoreapp3.1\Seamless.Model.AssemblyInfoInputs.cache
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Model\obj\Debug\netcoreapp3.1\Seamless.Model.AssemblyInfo.cs
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Model\obj\Debug\netcoreapp3.1\Seamless.Model.dll
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Model\obj\Debug\netcoreapp3.1\Seamless.Model.pdb
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Model\obj\Debug\netcoreapp3.1\Seamless.Model.genruntimeconfig.cache
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Model\obj\Debug\netcoreapp3.1\Seamless.Model.csproj.CoreCompileInputs.cache

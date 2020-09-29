@@ -1,0 +1,200 @@
+2020-09-18 15:51:54.703 +00:00 [INF] Application starting up
+2020-09-18 15:52:03.881 +00:00 [DBG] Hosting starting
+2020-09-18 15:52:04.041 +00:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-18 15:52:04.116 +00:00 [DBG] Reading data from file 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys\key-ccc8d850-4e66-444b-aa3d-6c55d9fd9c55.xml'.
+2020-09-18 15:52:04.307 +00:00 [DBG] Found key "ccc8d850-4e66-444b-aa3d-6c55d9fd9c55".
+2020-09-18 15:52:04.331 +00:00 [DBG] Considering key "ccc8d850-4e66-444b-aa3d-6c55d9fd9c55" with expiration date "2020-10-14T09:31:01.0576243+00:00" as default key.
+2020-09-18 15:52:04.346 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-18 15:52:04.351 +00:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-09-18 15:52:04.354 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-09-18 15:52:04.360 +00:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-09-18 15:52:04.363 +00:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-09-18 15:52:04.368 +00:00 [DBG] Using key "ccc8d850-4e66-444b-aa3d-6c55d9fd9c55" as the default key.
+2020-09-18 15:52:04.368 +00:00 [DBG] Key ring with default key "ccc8d850-4e66-444b-aa3d-6c55d9fd9c55" was loaded during application startup.
+2020-09-18 15:52:05.425 +00:00 [DBG] Loaded hosting startup assembly Seamless.API
+2020-09-18 15:52:05.427 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-18 15:52:05.427 +00:00 [INF] Hosting environment: Development
+2020-09-18 15:52:05.427 +00:00 [INF] Content root path: C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.API
+2020-09-18 15:52:05.427 +00:00 [DBG] Hosting started
+2020-09-18 15:52:05.514 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger  
+2020-09-18 15:52:05.518 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-09-18 15:52:05.518 +00:00 [VRB] All hosts are allowed.
+2020-09-18 15:52:05.536 +00:00 [DBG] The request path /swagger does not match a supported file type
+2020-09-18 15:52:05.551 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Features/Index.cshtml'.
+2020-09-18 15:52:05.604 +00:00 [DBG] No candidates found for the request path '/swagger'
+2020-09-18 15:52:05.605 +00:00 [DBG] Request did not match any endpoints
+2020-09-18 15:52:05.712 +00:00 [DBG] Request information GET /swagger information
+2020-09-18 15:52:05.756 +00:00 [DBG] Response information GET /swagger 301
+2020-09-18 15:52:05.758 +00:00 [INF] HTTP GET /swagger responded 301 in 218.7985 ms
+2020-09-18 15:52:05.822 +00:00 [INF] Request finished in 312.3892ms 301 
+2020-09-18 15:52:05.977 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2020-09-18 15:52:05.977 +00:00 [VRB] All hosts are allowed.
+2020-09-18 15:52:06.006 +00:00 [DBG] The request path /swagger/index.html does not match an existing file
+2020-09-18 15:52:06.008 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2020-09-18 15:52:06.008 +00:00 [DBG] Request did not match any endpoints
+2020-09-18 15:52:06.009 +00:00 [DBG] Request information GET /swagger/index.html information
+2020-09-18 15:52:06.112 +00:00 [DBG] Response information GET /swagger/index.html 200
+2020-09-18 15:52:06.123 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 116.8227 ms
+2020-09-18 15:52:06.135 +00:00 [INF] Request finished in 157.3622ms 200 text/html;charset=utf-8
+2020-09-18 15:52:06.778 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2020-09-18 15:52:06.779 +00:00 [VRB] All hosts are allowed.
+2020-09-18 15:52:06.780 +00:00 [DBG] The request path /swagger/swagger-ui.css does not match an existing file
+2020-09-18 15:52:06.781 +00:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2020-09-18 15:52:06.782 +00:00 [DBG] Request did not match any endpoints
+2020-09-18 15:52:06.784 +00:00 [DBG] Request information GET /swagger/swagger-ui.css information
+2020-09-18 15:52:06.837 +00:00 [VRB] Range header's value is empty.
+2020-09-18 15:52:06.883 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-09-18 15:52:06.884 +00:00 [DBG] Response information GET /swagger/swagger-ui.css 200
+2020-09-18 15:52:06.926 +00:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 145.4105 ms
+2020-09-18 15:52:06.927 +00:00 [INF] Request finished in 149.8301ms 200 text/css
+2020-09-18 15:52:07.014 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui-standalone-preset.js  
+2020-09-18 15:52:07.014 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui-bundle.js  
+2020-09-18 15:52:07.014 +00:00 [VRB] All hosts are allowed.
+2020-09-18 15:52:07.014 +00:00 [VRB] All hosts are allowed.
+2020-09-18 15:52:07.014 +00:00 [DBG] The request path /swagger/swagger-ui-bundle.js does not match an existing file
+2020-09-18 15:52:07.014 +00:00 [DBG] The request path /swagger/swagger-ui-standalone-preset.js does not match an existing file
+2020-09-18 15:52:07.014 +00:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2020-09-18 15:52:07.014 +00:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2020-09-18 15:52:07.014 +00:00 [DBG] Request did not match any endpoints
+2020-09-18 15:52:07.014 +00:00 [DBG] Request did not match any endpoints
+2020-09-18 15:52:07.015 +00:00 [DBG] Request information GET /swagger/swagger-ui-bundle.js information
+2020-09-18 15:52:07.015 +00:00 [DBG] Request information GET /swagger/swagger-ui-standalone-preset.js information
+2020-09-18 15:52:07.015 +00:00 [VRB] Range header's value is empty.
+2020-09-18 15:52:07.015 +00:00 [VRB] Range header's value is empty.
+2020-09-18 15:52:07.100 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-09-18 15:52:07.101 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-09-18 15:52:07.102 +00:00 [DBG] Response information GET /swagger/swagger-ui-standalone-preset.js 200
+2020-09-18 15:52:07.111 +00:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 97.1513 ms
+2020-09-18 15:52:07.112 +00:00 [INF] Request finished in 98.1367ms 200 application/javascript
+2020-09-18 15:52:07.276 +00:00 [DBG] Response information GET /swagger/swagger-ui-bundle.js 200
+2020-09-18 15:52:07.303 +00:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 288.9093 ms
+2020-09-18 15:52:07.303 +00:00 [INF] Request finished in 289.9735ms 200 application/javascript
+2020-09-18 15:52:19.679 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2020-09-18 15:52:19.679 +00:00 [VRB] All hosts are allowed.
+2020-09-18 15:52:19.680 +00:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+2020-09-18 15:52:19.680 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2020-09-18 15:52:19.681 +00:00 [DBG] Request did not match any endpoints
+2020-09-18 15:52:19.683 +00:00 [DBG] Request information GET /swagger/v1/swagger.json information
+2020-09-18 15:52:20.909 +00:00 [DBG] Response information GET /swagger/v1/swagger.json 200
+2020-09-18 15:52:20.913 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 1232.4363 ms
+2020-09-18 15:52:20.913 +00:00 [INF] Request finished in 1234.8638ms 200 application/json;charset=utf-8
+2020-09-18 15:53:08.634 +00:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/v1/ticket application/json 203
+2020-09-18 15:53:08.635 +00:00 [VRB] All hosts are allowed.
+2020-09-18 15:53:08.635 +00:00 [DBG] POST requests are not supported
+2020-09-18 15:53:08.649 +00:00 [DBG] 1 candidate(s) found for the request path '/api/v1/ticket'
+2020-09-18 15:53:08.655 +00:00 [DBG] Endpoint 'Seamless.API.V1.Controllers.TicketController.CreateTicketAsync (Seamless.API.V1)' with route pattern 'api/v1/Ticket' is valid for the request path '/api/v1/ticket'
+2020-09-18 15:53:08.656 +00:00 [DBG] Request matched endpoint 'Seamless.API.V1.Controllers.TicketController.CreateTicketAsync (Seamless.API.V1)'
+2020-09-18 15:53:08.659 +00:00 [DBG] Request information POST /api/v1/ticket information
+2020-09-18 15:53:08.662 +00:00 [DBG] The request has an origin header: 'https://localhost:44376'.
+2020-09-18 15:53:08.662 +00:00 [INF] CORS policy execution successful.
+2020-09-18 15:53:08.663 +00:00 [INF] Executing endpoint 'Seamless.API.V1.Controllers.TicketController.CreateTicketAsync (Seamless.API.V1)'
+2020-09-18 15:53:08.672 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-09-18 15:53:08.786 +00:00 [INF] Route matched with {action = "CreateTicket", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateTicketAsync(Seamless.Domain.Commands.Ticket.CreateTicketCommand) on controller Seamless.API.V1.Controllers.TicketController (Seamless.API.V1).
+2020-09-18 15:53:08.787 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-09-18 15:53:08.787 +00:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
+2020-09-18 15:53:08.788 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Seamless.API.Helpers.SerilogMvcLoggingAttribute (Order: 0)","Seamless.API.Helpers.HttpResponseExceptionFilter (Order: 2147483637)"]
+2020-09-18 15:53:08.788 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-09-18 15:53:08.788 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Seamless.API.Helpers.SerilogMvcLoggingAttribute (Order: 0)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2020-09-18 15:53:08.789 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2020-09-18 15:53:08.790 +00:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2020-09-18 15:53:08.790 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
+2020-09-18 15:53:08.791 +00:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
+2020-09-18 15:53:08.791 +00:00 [DBG] Executing controller factory for controller Seamless.API.V1.Controllers.TicketController (Seamless.API.V1)
+2020-09-18 15:53:08.793 +00:00 [DBG] Executed controller factory for controller Seamless.API.V1.Controllers.TicketController (Seamless.API.V1)
+2020-09-18 15:53:08.799 +00:00 [DBG] Attempting to bind parameter 'command' of type 'Seamless.Domain.Commands.Ticket.CreateTicketCommand' ...
+2020-09-18 15:53:08.802 +00:00 [DBG] Attempting to bind parameter 'command' of type 'Seamless.Domain.Commands.Ticket.CreateTicketCommand' using the name '' in request data ...
+2020-09-18 15:53:08.803 +00:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2020-09-18 15:53:08.872 +00:00 [DBG] JSON input formatter succeeded, deserializing to type 'Seamless.Domain.Commands.Ticket.CreateTicketCommand'
+2020-09-18 15:53:08.872 +00:00 [DBG] Done attempting to bind parameter 'command' of type 'Seamless.Domain.Commands.Ticket.CreateTicketCommand'.
+2020-09-18 15:53:08.873 +00:00 [DBG] Done attempting to bind parameter 'command' of type 'Seamless.Domain.Commands.Ticket.CreateTicketCommand'.
+2020-09-18 15:53:08.873 +00:00 [DBG] Attempting to validate the bound parameter 'command' of type 'Seamless.Domain.Commands.Ticket.CreateTicketCommand' ...
+2020-09-18 15:53:08.904 +00:00 [DBG] Done attempting to validate the bound parameter 'command' of type 'Seamless.Domain.Commands.Ticket.CreateTicketCommand'.
+2020-09-18 15:53:08.907 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-09-18 15:53:08.908 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-09-18 15:53:08.908 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-09-18 15:53:08.908 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-09-18 15:53:08.908 +00:00 [VRB] Action Filter: Before executing OnActionExecutionAsync on filter Seamless.API.Helpers.SerilogMvcLoggingAttribute.
+2020-09-18 15:53:08.911 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Seamless.API.Helpers.HttpResponseExceptionFilter.
+2020-09-18 15:53:08.911 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter Seamless.API.Helpers.HttpResponseExceptionFilter.
+2020-09-18 15:53:08.918 +00:00 [INF] Executing action method Seamless.API.V1.Controllers.TicketController.CreateTicketAsync (Seamless.API.V1) - Validation state: "Valid"
+2020-09-18 15:53:08.919 +00:00 [VRB] Executing action method Seamless.API.V1.Controllers.TicketController.CreateTicketAsync (Seamless.API.V1) with arguments (["Seamless.Domain.Commands.Ticket.CreateTicketCommand"])
+2020-09-18 15:53:09.397 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-09-18 15:53:10.973 +00:00 [DBG] The index {'RoleId'} was not created on entity type 'ARoleClaim' as the properties are already covered by the index {'RoleId', 'ClaimId'}.
+2020-09-18 15:53:10.974 +00:00 [DBG] The index {'UserId'} was not created on entity type 'AUserClaim' as the properties are already covered by the index {'UserId', 'ClaimId'}.
+2020-09-18 15:53:10.974 +00:00 [DBG] The index {'UserId'} was not created on entity type 'AUserRole' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2020-09-18 15:53:11.164 +00:00 [WRN] The property 'Id' on entity type 'AClaim' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+2020-09-18 15:53:11.164 +00:00 [WRN] The property 'Id' on entity type 'ARole' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+2020-09-18 15:53:11.306 +00:00 [INF] Entity Framework Core 3.1.1 initialized 'SeamlessContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-09-18 15:53:11.628 +00:00 [DBG] 'SeamlessContext' generated a temporary value for the 'Id' property of new 'STicket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-09-18 15:53:11.778 +00:00 [DBG] Context 'SeamlessContext' started tracking 'STicket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-09-18 15:53:11.785 +00:00 [DBG] SaveChanges starting for 'SeamlessContext'.
+2020-09-18 15:53:11.789 +00:00 [DBG] DetectChanges starting for 'SeamlessContext'.
+2020-09-18 15:53:11.831 +00:00 [DBG] DetectChanges completed for 'SeamlessContext'.
+2020-09-18 15:53:12.942 +00:00 [DBG] Opening connection to database 'Seamless' on server '.\SQLEXPRESS'.
+2020-09-18 15:53:13.914 +00:00 [DBG] Opened connection to database 'Seamless' on server '.\SQLEXPRESS'.
+2020-09-18 15:53:13.921 +00:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2020-09-18 15:53:13.953 +00:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2020-09-18 15:53:14.062 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-09-18 15:53:14.078 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2020-09-18 15:53:14.161 +00:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (Size = 510), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (Size = 255), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (Size = 500), @p13='?' (Size = 1) (DbType = Byte), @p14='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [S_Ticket] ([CategoryId], [Created_At], [Created_By], [Deleted_At], [Deleted_By], [Description], [File], [Modified_At], [Modified_By], [Object], [ParentId], [PriorityId], [State], [Status], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+SELECT [Id]
+FROM [S_Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2020-09-18 15:53:14.481 +00:00 [INF] Executed DbCommand (348ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (Size = 510), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (Size = 255), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (Size = 500), @p13='?' (Size = 1) (DbType = Byte), @p14='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [S_Ticket] ([CategoryId], [Created_At], [Created_By], [Deleted_At], [Deleted_By], [Description], [File], [Modified_At], [Modified_By], [Object], [ParentId], [PriorityId], [State], [Status], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+SELECT [Id]
+FROM [S_Ticket]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2020-09-18 15:53:14.561 +00:00 [DBG] Foreign key property 'STicket.Id' detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2020-09-18 15:53:14.583 +00:00 [DBG] A data reader was disposed.
+2020-09-18 15:53:14.593 +00:00 [DBG] Committing transaction.
+2020-09-18 15:53:14.602 +00:00 [DBG] Committing transaction.
+2020-09-18 15:53:14.606 +00:00 [DBG] Closing connection to database 'Seamless' on server '.\SQLEXPRESS'.
+2020-09-18 15:53:14.620 +00:00 [DBG] Closed connection to database 'Seamless' on server '.\SQLEXPRESS'.
+2020-09-18 15:53:14.626 +00:00 [DBG] Disposing transaction.
+2020-09-18 15:53:14.668 +00:00 [DBG] An 'STicket' entity tracked by 'SeamlessContext' changed from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-09-18 15:53:14.672 +00:00 [DBG] SaveChanges completed for 'SeamlessContext' with 1 entities written to the database.
+2020-09-18 15:53:14.733 +00:00 [INF] Executed action method Seamless.API.V1.Controllers.TicketController.CreateTicketAsync (Seamless.API.V1), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5804.1359ms.
+2020-09-18 15:53:14.735 +00:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Seamless.API.Helpers.HttpResponseExceptionFilter.
+2020-09-18 15:53:14.736 +00:00 [VRB] Action Filter: After executing OnActionExecuted on filter Seamless.API.Helpers.HttpResponseExceptionFilter.
+2020-09-18 15:53:14.739 +00:00 [VRB] Action Filter: After executing OnActionExecutionAsync on filter Seamless.API.Helpers.SerilogMvcLoggingAttribute.
+2020-09-18 15:53:14.739 +00:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-09-18 15:53:14.740 +00:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-09-18 15:53:14.742 +00:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-09-18 15:53:14.742 +00:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-09-18 15:53:14.744 +00:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2020-09-18 15:53:14.744 +00:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2020-09-18 15:53:14.745 +00:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-09-18 15:53:14.745 +00:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-09-18 15:53:14.745 +00:00 [VRB] Result Filter: Before executing OnResultExecutionAsync on filter Seamless.API.Helpers.SerilogMvcLoggingAttribute.
+2020-09-18 15:53:14.748 +00:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2020-09-18 15:53:14.748 +00:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2020-09-18 15:53:14.750 +00:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2020-09-18 15:53:14.752 +00:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-09-18 15:53:14.756 +00:00 [DBG] No information found on request to perform content negotiation.
+2020-09-18 15:53:14.756 +00:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
+2020-09-18 15:53:14.757 +00:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-09-18 15:53:14.758 +00:00 [INF] Executing ObjectResult, writing value of type 'Seamless.Model.Dtos.TicketDto'.
+2020-09-18 15:53:14.812 +00:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2020-09-18 15:53:14.812 +00:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2020-09-18 15:53:14.813 +00:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2020-09-18 15:53:14.813 +00:00 [VRB] Result Filter: After executing OnResultExecutionAsync on filter Seamless.API.Helpers.SerilogMvcLoggingAttribute.
+2020-09-18 15:53:14.813 +00:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-09-18 15:53:14.814 +00:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-09-18 15:53:14.814 +00:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2020-09-18 15:53:14.815 +00:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2020-09-18 15:53:14.815 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
+2020-09-18 15:53:14.815 +00:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
+2020-09-18 15:53:14.817 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2020-09-18 15:53:14.817 +00:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2020-09-18 15:53:14.827 +00:00 [INF] Executed action Seamless.API.V1.Controllers.TicketController.CreateTicketAsync (Seamless.API.V1) in 6029.8422ms
+2020-09-18 15:53:14.829 +00:00 [INF] Executed endpoint 'Seamless.API.V1.Controllers.TicketController.CreateTicketAsync (Seamless.API.V1)'
+2020-09-18 15:53:14.829 +00:00 [DBG] Response information POST /api/v1/ticket 200
+2020-09-18 15:53:14.852 +00:00 [INF] HTTP POST /api/v1/ticket responded 200 in 6216.454 ms
+2020-09-18 15:53:14.855 +00:00 [DBG] 'SeamlessContext' disposed.
+2020-09-18 15:53:14.857 +00:00 [INF] Request finished in 6226.2038ms 200 application/json; charset=utf-8

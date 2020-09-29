@@ -1,0 +1,2868 @@
+{
+	"info": {
+		"_postman_id": "3938f8a4-fab1-4953-9e2d-48b55578228a",
+		"name": "Seamless_V1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ActivityLog",
+			"item": [
+				{
+					"name": "ActivityLog_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"action\": \"string\",\n  \"libelle\": \"string\",\n  \"userId\": 0,\n  \"status\": true,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T10:02:28.573Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/ActivityLog",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"ActivityLog"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ActivityLog_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Department/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Department",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ActivityLog_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"action\": \"string\",\r\n  \"libelle\": \"string\",\r\n  \"userId\": 0,\r\n  \"status\": true,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T10:51:46.520Z\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/ActivityLog",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"ActivityLog"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ActivityLog_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/ActivityLog?sort=Libelle&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"ActivityLog"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "Libelle"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ActivityLog_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/ActivityLog",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"ActivityLog"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "bc16f346-2b8e-4ef9-9ac3-a028ff75286a",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "32e4cf3f-a91e-46ff-a257-e958a41570df",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "AppParameter",
+			"item": [
+				{
+					"name": "AppParameter_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"action\": \"string\",\n  \"libelle\": \"string\",\n  \"userId\": 0,\n  \"status\": true,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T10:02:28.573Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/ActivityLog",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"ActivityLog"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AppParameter_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/AppParameter/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"AppParameter",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AppParameter_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"parameterName\": \"string2\",\r\n  \"section\": \"string\",\r\n  \"value\": \"string\",\r\n  \"defaultValue\": \"string\",\r\n  \"typeParameter\": \"string\",\r\n  \"valuesList\": \"string\",\r\n  \"status\": true,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T13:38:29.370Z\"\r\n}\r\n",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/AppParameter",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"AppParameter"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AppParameter_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/AppParameter?sort=name&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"AppParameter"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "name"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AppParameter_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/ActivityLog",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"ActivityLog"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "aa8f7f3a-bd3c-4e43-87b7-f1e3ee382241",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "1ce029ad-9a58-4108-9c21-0ccbba3d3960",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Assignment",
+			"item": [
+				{
+					"name": "Assignment_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"ticketId\": 0,\n  \"closedDate\": \"2020-08-10T13:41:38.479Z\",\n  \"closedUserId\": \"string\",\n  \"closeReasonId\": 0,\n  \"assigneeId\": 0,\n  \"assignerId\": 0,\n  \"status\": true,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T13:41:38.479Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Assignment",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Assignment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Assignment_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Assignment/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Assignment",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Assignment_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"ticketId\": 0,\r\n  \"closedDate\": \"2020-08-10T13:43:50.020Z\",\r\n  \"closedUserId\": \"string\",\r\n  \"closeReasonId\": 0,\r\n  \"assigneeId\": 1,\r\n  \"assignerId\": 1,\r\n  \"status\": true,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T13:43:50.020Z\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Assignment",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Assignment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Assignment_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Assignment?sort=name&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Assignment"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "name"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Assignment_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Assignment",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Assignment"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "04c63097-8320-48bc-a055-44328e882d5f",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "fa8bd262-46cb-4afe-81e9-46b5c7b0d35a",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Category",
+			"item": [
+				{
+					"name": "Category_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"name\": \"string\",\n  \"description\": \"string\",\n  \"level\": 0,\n  \"parentId\": 0,\n  \"status\": true,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T13:47:14.347Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Category",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Category/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Category",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"name\": \"string\",\r\n  \"description\": \"string\",\r\n  \"level\": 0,\r\n  \"parentId\": 0,\r\n  \"status\": true,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T13:51:38.648Z\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Category",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Category?sort=name&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Category"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "name"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Category",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Category"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "673a5844-94db-4b92-b85f-2d52e81d4ef7",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "d6f77b1f-1df7-44e0-86df-5aa850d412e2",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Faq",
+			"item": [
+				{
+					"name": "Faq_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"categoryId\": 0,\n  \"title\": \"string\",\n  \"description\": \"string\",\n  \"locale\": \"string\",\n  \"status\": true,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T14:17:14.416Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Faq",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Faq"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Faq_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Faq/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Faq",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Faq_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"categoryId\": 0,\r\n  \"title\": \"string\",\r\n  \"description\": \"string\",\r\n  \"locale\": \"string\",\r\n  \"status\": true,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T14:20:40.212Z\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Faq",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Faq"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Faq_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Faq?sort=name&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Faq"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "name"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Faq_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Faq",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Faq"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "968d0e0e-6cba-442d-a39e-13131122eaa4",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "31824f1e-7c4e-48ee-b016-cad0d86d880c",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Message",
+			"item": [
+				{
+					"name": "Message_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"userId\": 0,\n  \"ticketId\": 0,\n  \"text\": \"string\",\n  \"status\": true,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T14:24:34.683Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Message",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Message"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Message_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Message/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Message",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Message_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"userId\": 0,\r\n  \"ticketId\": 0,\r\n  \"text\": \"string\",\r\n  \"status\": true,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T14:28:02.019Z\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Message",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Message"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Message_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Message?sort=name&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Message"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "name"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Message_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Message",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Message"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "7e38704d-ecf1-46c2-8b62-e7f3cff8e0f9",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "19dee22a-080a-4d69-a890-aff881f8e0af",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Note",
+			"item": [
+				{
+					"name": "Note_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"userId\": 0,\n  \"ticketId\": 0,\n  \"channel\": \"string\",\n  \"note\": \"string\",\n  \"status\": true,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T14:31:40.785Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Note",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Note"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Note_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Note/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Note",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Note_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"userId\": 0,\r\n  \"ticketId\": 0,\r\n  \"channel\": \"string\",\r\n  \"note\": \"string\",\r\n  \"status\": true,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T14:33:10.293Z\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Note",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Note"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Note_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Note?sort=name&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Note"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "name"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Note_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Note",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Note"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "b0e8ea25-061d-4c6d-94af-56ee4394cdc6",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "c52342ea-adb5-4a9d-9e89-de44a716681e",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "NoteType",
+			"item": [
+				{
+					"name": "NoteType_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"name\": \"string\",\n  \"description\": \"string\",\n  \"status\": true,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T14:34:57.250Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/NoteType",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"NoteType"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NoteType_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/NoteType/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"NoteType",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NoteType_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"name\": \"string\",\r\n  \"description\": \"string\",\r\n  \"status\": true,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T14:37:05.210Z\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/NoteType",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"NoteType"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NoteType_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/NoteType?sort=name&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"NoteType"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "name"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NoteType_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/NoteType",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"NoteType"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ed51b24d-e141-40f8-9b2f-e6c4d4309a6d",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4eee39c1-e660-4849-9e38-a25ba7417a8a",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Permission",
+			"item": [
+				{
+					"name": "Permission_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"title\": \"string\",\n  \"name\": \"string\",\n  \"parentId\": 0,\n  \"level\": 0,\n  \"status\": true,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T14:42:15.438Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Permission",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Permission"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Permission_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/Permission/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"Permission",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Permission_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"title\": \"string\",\r\n  \"name\": \"string\",\r\n  \"parentId\": 0,\r\n  \"level\": 0,\r\n  \"status\": true,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T14:42:31.337Z\"\r\n}\r\n",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/Permission",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"Permission"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Permission_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/Permission?sort=name&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"Permission"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "name"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Permission_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Permission",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Permission"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "f1a2258b-513b-4b13-9a35-c1ed52071014",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "fc26ab8b-b436-4a6e-97ac-8eeec5e62311",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Priority",
+			"item": [
+				{
+					"name": "Priority_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"name\": \"string\",\n  \"status\": true,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T14:43:53.732Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Priority",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Priority"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Priority_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/Permission/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"Permission",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Priority_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"name\": \"string\",\r\n  \"status\": true,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T14:44:13.909Z\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/Permission",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"Permission"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Priority_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/Permission?sort=name&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"Permission"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "name"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Priority_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Permission",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Permission"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "c9bb1777-a984-46e0-a086-944235399b50",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "f39abb0f-32d1-46a3-a0ae-365c3fdae488",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Ticket",
+			"item": [
+				{
+					"name": "Ticket_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"categoryId\": 0,\n  \"parentId\": 0,\n  \"userId\": 0,\n  \"priorityId\": 0,\n  \"object\": \"string\",\n  \"description\": \"string\",\n  \"file\": \"string\",\n  \"status\": true,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T14:48:20.005Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Ticket",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Ticket"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ticket_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/Ticket/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"Ticket",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ticket_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"categoryId\": 0,\r\n  \"parentId\": 0,\r\n  \"userId\": 0,\r\n  \"priorityId\": 0,\r\n  \"object\": \"string\",\r\n  \"description\": \"string\",\r\n  \"file\": \"string\",\r\n  \"status\": true,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T14:48:36.899Z\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/Ticket",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"Ticket"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ticket_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/Ticket?sort=name&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"Ticket"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "name"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ticket_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Ticket",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Ticket"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "4a4e72b8-ca54-4ac6-ac6f-51bc62ba6818",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "29751bc9-3917-4ac1-9c62-2c17505d8994",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "User_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"email\": \"string\",\n  \"password\": \"string\",\n  \"token\": \"string\",\n  \"status\": 0,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T14:55:12.668Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/User",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/User/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"User",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"email\": \"string\",\r\n  \"password\": \"string\",\r\n  \"token\": \"string\",\r\n  \"status\": 0,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T14:55:33.879Z\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/User",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/User?sort=name&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"User"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "name"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/User",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"User"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "23716cbe-c055-4d5c-be4b-aa3036b4fc1e",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "d90f3ae5-13a9-4de1-831d-21d7f38a1386",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "TicketStatus",
+			"item": [
+				{
+					"name": "TicketStatus_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"name\": \"string\",\n  \"status\": true,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T14:51:39.630Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/TicketStatus",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"TicketStatus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TicketStatus_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/TicketStatus/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"TicketStatus",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TicketStatus_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"name\": \"string\",\r\n  \"status\": true,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T14:52:00.447Z\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/TicketStatus",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"TicketStatus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TicketStatus_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/TicketStatus?sort=name&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"TicketStatus"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "name"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TicketStatus_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/TicketStatus",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"TicketStatus"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "4589e73a-8701-40c0-af9f-14109479e2ea",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "29f7b0ae-a45f-4951-9146-bb0fdf1c0b38",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "TicketField",
+			"item": [
+				{
+					"name": "TicketField_SaveOne",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"title\": \"string\",\n  \"description\": \"string\",\n  \"type\": 0,\n  \"order\": 0,\n  \"isRequired\": 0,\n  \"choiceList\": \"string\",\n  \"status\": true,\n  \"createdBy\": 0,\n  \"createdAt\": \"2020-08-10T14:49:02.298Z\"\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/TicketField",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"TicketField"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TicketField_GetOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/TicketField/1",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"TicketField",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TicketField_UpdateOne",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"title\": \"string\",\r\n  \"description\": \"string\",\r\n  \"type\": 0,\r\n  \"order\": 0,\r\n  \"isRequired\": 0,\r\n  \"choiceList\": \"string\",\r\n  \"status\": true,\r\n  \"modifiedBy\": 0,\r\n  \"modifiedAt\": \"2020-08-10T14:49:24.794Z\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/TicketField",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"TicketField"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TicketField_All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{rootUrl}}/api/v1//api/v1/TicketField?sort=name&order=true&pageIndex=2&pageSize=2",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"",
+								"api",
+								"v1",
+								"TicketField"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "name"
+								},
+								{
+									"key": "order",
+									"value": "true"
+								},
+								{
+									"key": "pageIndex",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TicketField_DeletedOne",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"updated_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_At\": \"2020-08-10T13:33:51.097Z\",\r\n  \"deleted_By\": 1\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/TicketField",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"TicketField"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "8e2d84a0-8ada-45a7-b890-d3c968c86087",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "1d2bcc84-49f7-4bb9-a19d-3ea186e2e8db",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"string\",\r\n  \"password\": \"string\",\r\n  \"userId\": 0\r\n}\r\n",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Auth/login",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"token\": \"\",\r\n  \"createdBy\": 0,\r\n  \"createdAt\": \"2020-08-10T14:59:36.398Z\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{rootUrl}}/api/v1/Auth/logout",
+							"host": [
+								"{{rootUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Auth",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "d669280f-fbf8-4de0-a661-3dbbff4902dc",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "1715c6eb-252d-47b8-8da7-fd6e25bf5a5b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "b1a0079e-559e-4eb9-b619-5eb3e9f52624",
+			"key": "rootUrl",
+			"value": "https://localhost:44376",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

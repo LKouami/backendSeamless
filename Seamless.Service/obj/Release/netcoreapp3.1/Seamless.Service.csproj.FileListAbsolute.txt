@@ -1,0 +1,16 @@
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\bin\Release\netcoreapp3.1\Seamless.Service.deps.json
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\bin\Release\netcoreapp3.1\Seamless.Service.dll
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\bin\Release\netcoreapp3.1\Seamless.Service.pdb
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\bin\Release\netcoreapp3.1\Seamless.Data.dll
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\bin\Release\netcoreapp3.1\Seamless.Domain.dll
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\bin\Release\netcoreapp3.1\Seamless.Model.dll
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\bin\Release\netcoreapp3.1\Seamless.Data.pdb
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\bin\Release\netcoreapp3.1\Seamless.Domain.pdb
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\bin\Release\netcoreapp3.1\Seamless.Model.pdb
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\obj\Release\netcoreapp3.1\Seamless.Service.csprojAssemblyReference.cache
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\obj\Release\netcoreapp3.1\Seamless.Service.AssemblyInfoInputs.cache
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\obj\Release\netcoreapp3.1\Seamless.Service.AssemblyInfo.cs
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\obj\Release\netcoreapp3.1\Seamless.Service.csproj.CoreCompileInputs.cache
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\obj\Release\netcoreapp3.1\Seamless.Service.csproj.CopyComplete
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\obj\Release\netcoreapp3.1\Seamless.Service.dll
+C:\Users\acer\Documents\Afrosoft\Projets\ASP CORE\Seamless\Seamless.Service\obj\Release\netcoreapp3.1\Seamless.Service.pdb

@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="FluentValidation" Version="9.0.0" />
+	  <PackageReference Include="MediatR" Version="8.0.0" />
+
+	  <PackageReference Include="AutoMapper" Version="9.0.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.1" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.1">
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		  <PrivateAssets>all</PrivateAssets>
+	  </PackageReference>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+	  <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+	  <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+	  <Folder Include="Commands\ActivityLog\" />
+    <Folder Include="Commands\Assignment\" />
+    <Folder Include="Commands\Category\" />
+    <Folder Include="Commands\Faq\" />
+    <Folder Include="Commands\Message\" />
+    <Folder Include="Commands\Note\" />
+    <Folder Include="Commands\NoteType\" />
+    <Folder Include="Commands\Permission\" />
+    <Folder Include="Commands\Priority\" />
+    <Folder Include="Commands\Ticket\" />
+    <Folder Include="Commands\TicketField\" />
+    <Folder Include="Commands\TicketStatus\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Seamless.Model\Seamless.Model.csproj" />
+  </ItemGroup>
+
+</Project>

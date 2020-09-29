@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seamless.API", "Seamless.API\Seamless.API.csproj", "{7495C3DA-33B9-408D-A9B8-7E2B0C0D81A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seamless.API.V1", "Seamless.API.V1\Seamless.API.V1.csproj", "{81D29BBC-FE10-435B-B51A-96DC3E156DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seamless.Data", "Seamless.Data\Seamless.Data.csproj", "{892A3A44-33A2-400D-BB2A-F98EDBCB1A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seamless.Domain", "Seamless.Domain\Seamless.Domain.csproj", "{2F70B0E3-B7C9-4CF7-9162-2ACFA2FF42C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seamless.Model", "Seamless.Model\Seamless.Model.csproj", "{4A60AB9D-DB40-43CC-934F-65FE4FDC1CBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seamless.Service", "Seamless.Service\Seamless.Service.csproj", "{6F93D63C-A35F-42B9-ADF5-B839B6E073A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7495C3DA-33B9-408D-A9B8-7E2B0C0D81A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7495C3DA-33B9-408D-A9B8-7E2B0C0D81A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7495C3DA-33B9-408D-A9B8-7E2B0C0D81A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7495C3DA-33B9-408D-A9B8-7E2B0C0D81A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D29BBC-FE10-435B-B51A-96DC3E156DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D29BBC-FE10-435B-B51A-96DC3E156DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D29BBC-FE10-435B-B51A-96DC3E156DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D29BBC-FE10-435B-B51A-96DC3E156DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892A3A44-33A2-400D-BB2A-F98EDBCB1A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892A3A44-33A2-400D-BB2A-F98EDBCB1A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892A3A44-33A2-400D-BB2A-F98EDBCB1A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892A3A44-33A2-400D-BB2A-F98EDBCB1A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F70B0E3-B7C9-4CF7-9162-2ACFA2FF42C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F70B0E3-B7C9-4CF7-9162-2ACFA2FF42C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F70B0E3-B7C9-4CF7-9162-2ACFA2FF42C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F70B0E3-B7C9-4CF7-9162-2ACFA2FF42C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A60AB9D-DB40-43CC-934F-65FE4FDC1CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A60AB9D-DB40-43CC-934F-65FE4FDC1CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A60AB9D-DB40-43CC-934F-65FE4FDC1CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A60AB9D-DB40-43CC-934F-65FE4FDC1CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F93D63C-A35F-42B9-ADF5-B839B6E073A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F93D63C-A35F-42B9-ADF5-B839B6E073A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F93D63C-A35F-42B9-ADF5-B839B6E073A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F93D63C-A35F-42B9-ADF5-B839B6E073A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21E02D1C-31BC-4CF2-AB3A-C79C8C2B1B15}
+	EndGlobalSection
+EndGlobal
